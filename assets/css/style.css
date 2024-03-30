@@ -1,0 +1,87 @@
+/* Encabesado de pagina y menu */
+.navbar h1 {
+    font-family: lobster;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: #ffffff;
+}
+
+/* Seccion principal */
+.bold{
+    font-weight: bold;
+}
+
+.opacity{
+    opacity: 1;
+}
+
+h2.bold.py-3 {
+    width: 75%;
+}
+
+button.btn.btn-light {
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #373A3C;
+}
+
+.carousel-indicators {
+    margin-bottom: 0.5rem;
+
+}
+
+.alert-success{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {  
+    
+    .details {
+        text-align: center;
+        
+    }
+    
+    h2.bold.py-3{
+        width: auto;   
+    }
+}
+
+/* Informacion preparacion y recetas relacionadas */
+.InformacionPreparacion u{
+    text-underline-offset: 15px;
+}
+
+.card-body {
+    min-height: 88px;
+}
+
+/* Contacto */
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-danger{
+    border-color: #FFFFFF;
+}
+
+/* Pie de pagina */
+footer {
+    font-family: lobster;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: #ffffff;
+}
